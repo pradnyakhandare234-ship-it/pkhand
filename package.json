@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "pretest": "node scripts/pretest.js",
-    "test": "node scripts/run-tests.js --skip-js-errors chrome tests/register.test.js"
+    "test": "node scripts/run-tests.js --skip-js-errors edge tests/register.test.js",
+    "test:chrome": "node scripts/run-tests.js --skip-js-errors chrome tests/register.test.js",
+    "test:firefox": "node scripts/run-tests.js --skip-js-errors firefox tests/register.test.js"
   }
 }
