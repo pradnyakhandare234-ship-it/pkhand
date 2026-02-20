@@ -1,0 +1,9 @@
+{
+  "name": "demo-register-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pretest": "node scripts/pretest.js",
+    "test": "node scripts/run-tests.js --skip-js-errors chrome tests/register.test.js"
+  }
+}
